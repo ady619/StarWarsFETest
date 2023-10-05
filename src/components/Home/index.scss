@@ -1,0 +1,40 @@
+.starwars-image {
+    min-width: 100px;
+    width: 200px;
+}
+.home-background {
+    min-height: 600px;
+    background-image: url("https://cutewallpaper.org/21/star-wars-background/Star-Wars-Star-Backgrounds-Best-Background-Images-HD-.jpg");
+}
+.footer {
+    display: flex;
+    margin: 5px 140px;
+    .button {
+        background-color: #e9de6a;
+    }
+}
+.nav-buttons {
+    flex: 2 1 auto;
+    width: 100px;
+    background-color: #000;
+    border: 2px solid #fdfff2;
+    border-radius: 3px;
+    color: #dee128;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    font-weight: 500;
+
+    &:hover {
+        background-color: #dee128;
+        color: #000;
+      }
+}
+.progress {
+    font-size: 24px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    display: -webkit-inline-box;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
