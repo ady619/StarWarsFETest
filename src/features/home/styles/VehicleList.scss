@@ -1,6 +1,5 @@
 .object-list {
     margin: 20px;
-    min-height: 600px;
     padding: 10px 40px;
     border-radius: 5px;
     width: auto;
@@ -29,7 +28,8 @@
     display: flex;
   
     &:hover {
-      background-color: #222803b5;
+      background-color: #dee12833;
+      color: #dee128;
     }
   }
 

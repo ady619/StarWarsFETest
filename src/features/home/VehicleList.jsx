@@ -1,13 +1,13 @@
-import './index.scss'
+import React from "react";
+import './styles/VehicleList.scss'
 
-const VehicleList = (props) => {
-    const { list } = props
-    console.log(list)
+const VehicleList = ({ list }) => {
+    console.log("VehicleList",list)
     return (
         <div className="object-list">
             <h1 className="object-list-title">List of Star ships</h1>
-            {list && list.results.map((item) => (
-                <div key={item.id} className="object-item">
+            {list && list.map((item) => (
+                <div key={item.url} className="object-item">
                     <div className='list-item-left vertical'>
                         <div className='item-box'><span>{item.name}</span></div>
                         <div className='item-box'>Model</div>
